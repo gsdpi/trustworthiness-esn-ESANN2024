@@ -1,4 +1,4 @@
-# Trustworthiness Score for Echo Estate Networks by Analysis of the Reservoir Dynamics
+# Trustworthiness Score for Echo State Networks by Analysis of the Reservoir Dynamics
 by GSDPI *Grupo de Supervisión Diagnóstico y Descubrimiento del Conocimiento en Procesos de Ingeniería*
 
 Universidad de Oviedo, 2024
