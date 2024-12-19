@@ -122,7 +122,7 @@ states = reservoir.run(X_train)
 Q = Y_train.shape[0] # Total size
 t = np.arange(Q).reshape(-1,1)*tm # time vector
 S = 20  # Stride
-L = 100 # Window lenght
+L = 140 # Window lenght
 
 print(f'Decomposing (wnd siz {L}, stride {S})...')
 rango = np.arange(0,Q-L,S)
@@ -165,7 +165,7 @@ C = []
 Q = X.shape[0]
 t = np.arange(Q).reshape(-1,1)*tm
 S = 20
-L = 100 
+L = 140 
 
 print(f'Decomposing (wnd siz {L}, stride {S})...')
 rango = np.arange(0,Q-L,S)
@@ -204,7 +204,7 @@ plt.ylabel('acceleration (normalized)')
 
 
 cc = np.array([1 if i>=-10 else 0 for i in logprobX])
-cc_exp = np.kron(cc,np.ones(20))
+cc_exp = np.kron(cc,np.ones(S))
 
 plt.subplot(2,1,2)
 plt.plot(t_adj,Y_adj,label='Real')

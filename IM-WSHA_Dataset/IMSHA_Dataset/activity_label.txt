@@ -1,0 +1,11 @@
+1:Using Computer
+2:Phone Conversation
+3:Vaccum Cleaning
+4:Reading Book
+5:Watching TV
+6:Ironing
+7:Walking
+8:Exercise
+9:Cooking
+10:Drinking
+11:Brushing Hair
