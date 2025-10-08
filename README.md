@@ -13,6 +13,3 @@ José M. Enguita $^1$, Diego García $^1$, Abel A. Cuadrado $^1$, Daniel Peña $
 2- SUPPRESS Research Group, University of León, 24007 León, Spain
 
 **Abstract**. Epistemic uncertainty arises from input data areas where models lack exposure during training and may result in significant performance degradation in deployment. Echo State Networks are often used as virtual sensors or digital twins processing temporal input data, so their robustness against this degradation is crucial. This paper addresses this challenge by proposing a score comparing the similarity between the dynamic evolution of the reservoir in training and in inference. This research aims to enhance model confidence and adaptability in evolving circumstances.
-
-### Funding
-This work was funded in part by Ministerio de Ciencia e Innovación (MCNIN)/Agencia Estatal de Investigación (AEI) (MCIN/AEI/10.13039/501100011033) under Grant PID2020-115401GB-I00.
